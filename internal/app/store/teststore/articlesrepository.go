@@ -1,8 +1,6 @@
 package teststore
 
-import (
-	"github.com/Orynik/Backend_Blog/internal/app/model" // ...
-)
+import "github.com/Orynik/Backend_Blog/internal/app/model"
 
 //ArticlesRepository ...
 type ArticlesRepository struct {

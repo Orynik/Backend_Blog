@@ -4,7 +4,6 @@ import (
 	"database/sql"
 
 	"github.com/Orynik/Backend_Blog/internal/app/store"
-	_ "github.com/go-sql-driver/mysql" // ...
 )
 
 //Store ...

@@ -3,8 +3,8 @@ package teststore_test
 import (
 	"testing"
 
-	"github.com/Kentabr5427/http-rest-api/internal/app/model"
-	"github.com/Kentabr5427/http-rest-api/internal/app/store/teststore"
+	"github.com/Orynik/Backend_Blog/internal/app/model"
+	"github.com/Orynik/Backend_Blog/internal/app/store/teststore"
 	"github.com/stretchr/testify/assert"
 )
 
