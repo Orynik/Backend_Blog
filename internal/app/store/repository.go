@@ -1,6 +1,6 @@
 package store
 
-import "github.com/Kentabr5427/http-rest-api/internal/app/model"
+import "github.com/Orynik/Backend_Blog/internal/app/model"
 
 //UserRepository ...
 type UserRepository interface {
