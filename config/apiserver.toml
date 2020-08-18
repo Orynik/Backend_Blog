@@ -1,0 +1,4 @@
+bind_addr = ":4444"
+log_level = "debug"
+database_url = "root:Q1qqqqqq!@tcp(localhost:3306)/user"
+session_key="8c3f93241cb514ad7806087462eafde43a294c0d77ad40fd204ec13df34b3242"
