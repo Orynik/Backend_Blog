@@ -5,6 +5,7 @@ import (
 	"net/http"
 
 	"github.com/Orynik/Backend_Blog/internal/app/store/sqlstore"
+	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/sessions"
 )
 
