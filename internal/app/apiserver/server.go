@@ -56,7 +56,7 @@ func (s *server) configureRouter() {
 	s.router.Use(s.setRequestID)
 	s.router.Use(s.logRequest)
 	s.router.Use(handlers.CORS(handlers.AllowCredentials()))
-	s.router.Use(handlers.CORS(handlers.AllowedOrigins([]string{"http://192.168.0.102:8080", "http://orynik.gitlab.io"})))
+	s.router.Use(handlers.CORS(handlers.AllowedOrigins([]string{"http://localhost:8080", "http://orynik.gitlab.io"})))
 	s.router.HandleFunc("/users", s.handleUsersCreate()).Methods("POST")
 	s.router.HandleFunc("/sessions", s.handleSessionsCreate()).Methods("POST")
 
